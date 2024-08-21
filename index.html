@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>O castelo Animado</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"/>
+
+    <link rel="stylesheet" href="./src/css/reset.css" />
+
+    <link rel="stylesheet" href="./src/css/style.css" />
+
+    <link rel="stylesheet" href="./src/css/responsivo.css" />
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <h1> O Castelo Animado </h1>
+    </header>
+
+    <main class="personagens-slider">
+      <button class="btn-seta btn-voltar" id="btn-voltar">
+        <img src="./src/imagens/seta.png" alt="Seta para voltar a imagem" />
+      </button>
+
+      <ul class="lista-personagens">
+        <li class="cartao selecionado fundo-1">
+          <h2 class="nome"> Sophie Hatter </h2>
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/01-Sophie.jpg"
+            alt="Sophie Hatter"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              É a mais velha de três irmãs que trabalham como costureiras na
+              chapelaria de sua família. Sophie é insegura quanto sua aparência
+              e tem dificuldade em encontrar o que quer fazer. Entretanto, uma
+              maldição da Bruxa da Terra Abandonada atransforma em uma mulher de
+              90 anos, e com isso ela acaba se desenvolvendo como personagem.
+              Ela se torna mais honesta consigo mesma e começa a viver sua vida.
+              O crescimento dela ao longo da história é um dos destaques do
+              filme. 
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-2">
+          <h2 class="nome"> Howl </h2>
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/02-Howl.jpg"
+            alt="Howl"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Um lindo rapaz com um imenso talento para a feitiçaria. Há rumores
+              de que ele se alimenta doscorações das jovens mulheres e é temido
+              pelo povo porque vive em um horrível castelo em movimento. Como
+              vingança a Bruxa joga uma maldição em Howl: Que quando ele se
+              apaixonar ele vai voltar para ela. 
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-3">
+          <h2 class="nome"> Calcifer </h2>
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/03-Calcifer.jpg"
+            alt="Calcifer"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Calcifer é o demônio do fogo, um pacto com Howl e usa a lareira do
+              castelo como sua casa ele também move o castelo. Mesmo sendo um
+              demônio, ele é um personagem de boa índole que não vai recusar
+              nada que a Sophie peça a ele.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-4">
+          <h2 class="nome"> Markl </h2>
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/04-Markl.jpg"
+            alt="Markl"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Ele é o aprendiz de Howl e a criança que vive no castelo com ele.
+              Não tem origem específica no filme 
+              Ela usa seu manto para se transformar em um homem velho de barba
+              longa e ajuda Howl com sua magia de transformação.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-5">
+          <h2 class="nome"> Bruxa da terra abandonada </h2>
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/05-A-bruxa-da-terra-abandonada.jpg"
+            alt="A bruxa da terra abandonada "
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Ela já foi uma bruxa que serviu à família real, mas foi banida
+              para o deserto depois de ter feito um pacto com um demônio e usado
+              sua magia. Também foi ela quem mudou a aparência de Sophie.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-6">
+          <h2 class="nome"> Cabeça de nabo </h2>
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/06-Cabeça-de-nabo.jpg"
+            alt="Cabeça de nabo"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              O espantalho foi salvo pela Sophie de ficar presa de cabeça para
+              baixo em um terreno baldio. Sua cabeça é feita de um nabo vegetal,
+              daí seu nome. Embora o espantalho não fale, parece mover-se com
+              vontade e parece estar sob algum tipo de feitiço.
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <button class="btn-seta" id="btn-avancar">
+        <img src="./src/imagens/seta.png" alt="Seta para avançar a imagem" />
+      </button>
+    </main>
+
+    <script src="./src/JS/index.JS"></script>
+  </body>
+</html>
